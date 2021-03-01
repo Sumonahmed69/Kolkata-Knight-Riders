@@ -9,31 +9,25 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-
+            <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <img src={logo} alt="" />
-                <Navbar.Brand href="/home">
-                    Kolkata Knight Riders</Navbar.Brand>
+                <Navbar.Brand href="#cart">Kolkata Knight Riders</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/news">HOME</Nav.Link>
-                        <Nav.Link href="/news">NEWS</Nav.Link>
-                        <Nav.Link href="/result">FIXTURES & RESULTS</Nav.Link>
-                        <Nav.Link href="/players">PLAYERS</Nav.Link>
-                        <Nav.Link href="/gallary">GALLERY</Nav.Link>
-
+                        <Nav.Link href="#cart">HOME</Nav.Link>
+                        <Nav.Link href="#cart">NEWS</Nav.Link>
+                        <Nav.Link href="#cart">FIXTURES & RESULTS</Nav.Link>
+                        <Nav.Link href="#cart">PLAYERS</Nav.Link>
+                        <Nav.Link href="#cart">GALLERY</Nav.Link>
                     </Nav>
                     <Nav>
-                        <p className="accountIcon"> <span id="login">Login Or Sign Up</span>  <FontAwesomeIcon icon={faUserCircle} /></p>
-
+                        <p className="accountIcon"> <span id="login">Login Or Sign Up</span>
+                            <FontAwesomeIcon icon={faUserCircle} /></p>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            
-
         </div>
-
     );
 };
 

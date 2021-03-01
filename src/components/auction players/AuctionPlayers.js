@@ -5,33 +5,26 @@ import Players from '../players/Players'
 import Cart from './../cart/Cart';
 const AuctionPlayers = () => {
     const [players, setPlayers] = useState([]);
-    const [cart , setCart] = useState([]);
-
-    const handleAddPlayers = (player)=>{
-
+    const [cart, setCart] = useState([]);
+    const handleAddPlayers = (player) => {
         console.log("add", player);
-        const newCart =[...cart, player];
+        const newCart = [...cart, player];
         setCart(newCart);
     }
-
     useEffect(() => {
         setPlayers(playersData);
     }, [])
+
     return (
         <div className="AuctionPlayers-container">
-
             <div className="player-container">
-
                 {
                     players.map(playerlist => <Players
-                        handleAddPlayers ={handleAddPlayers}
+                        handleAddPlayers={handleAddPlayers}
                         player={playerlist} > </Players>)
                 }
-
             </div>
             <Cart cart={cart}></Cart>
-
-
         </div>
     );
 };

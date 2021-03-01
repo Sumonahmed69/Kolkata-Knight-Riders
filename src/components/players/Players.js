@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Playes = (props) => {
-    console.log(props);
+   
     const { image, name, role, auctionPrice, matches, nationality, Runs } = props.player;
 
     return (
@@ -13,8 +13,6 @@ const Playes = (props) => {
             <div>
                 <img id="playersImage" src={image} alt="" />
             </div>
-
-
             <div>
                 <h3>{name}</h3>
                 <p>Catagory : {role}</p>
@@ -22,14 +20,11 @@ const Playes = (props) => {
                 <p><small>Matches : {matches}</small></p>
                 <p><small>Runs : {Runs}</small></p>
                 <p><small>Nationality : {nationality}</small></p>
-                <button                    
+                <button
                     className="addBtn"
-                    onClick={()=> props.handleAddPlayers(props.player)}
-                    >
+                    onClick={() => props.handleAddPlayers(props.player)}>
                     <FontAwesomeIcon icon={faUserPlus} />   Add To Team</button>
-
             </div>
-
         </div>
     );
 };
