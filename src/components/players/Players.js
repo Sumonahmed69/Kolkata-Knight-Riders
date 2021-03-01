@@ -18,7 +18,7 @@ const Playes = (props) => {
             <div>
                 <h3>{name}</h3>
                 <p>Catagory : {role}</p>
-                <p>Auction Price : {auctionPrice}</p>
+                <p>Auction Price (₹): {auctionPrice} cr</p>
                 <p><small>Matches : {matches}</small></p>
                 <p><small>Runs : {Runs}</small></p>
                 <p><small>Nationality : {nationality}</small></p>
