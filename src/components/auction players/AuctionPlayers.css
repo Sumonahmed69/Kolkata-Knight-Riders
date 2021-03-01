@@ -1,0 +1,17 @@
+.AuctionPlayers-container{
+    display: flex;
+}
+.player-container{
+    width: 60%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-left: 1px dashed gray;
+    border-right: 1px dashed gray;
+      
+}
+#playersImage{
+    height: 200px;
+    margin-bottom: 10px;
+}
+

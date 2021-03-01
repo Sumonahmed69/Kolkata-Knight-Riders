@@ -1,0 +1,18 @@
+.cart-container{
+    background-color: rgba(5, 255, 138, 0.082);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.cart-container h1{
+    text-align: center;
+    font-weight: 600;
+    color: indigo;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-left: 150px;
+
+}

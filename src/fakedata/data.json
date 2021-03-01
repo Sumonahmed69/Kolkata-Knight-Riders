@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Eoin Morgan",
+        "image": "https://i.ibb.co/xmXBCQZ/3823.png",
+        "role": "Batsman",
+        "auctionPrice": 5.25,
+        "nationality": "England",
+        "matches": "66",
+        "Runs": "1272"
+    },
+    {
+        "id": 2,
+        "name": "Dinesh Karthik",
+        "image": "https://i.ibb.co/5kBqm9h/3632.png",
+        "role": "Wicket Keeper",
+        "auctionPrice": 7.4,
+        "nationality": "india",
+        "matches": "196",
+        "Runs": "3823"
+    },
+    {
+        "id": 3,
+        "name": "Nitish Rana",
+        "image": "https://i.ibb.co/NVnNsbQ/63649.png",
+        "role": "Batsman",
+        "auctionPrice": 3.4,
+        "nationality": "india",
+        "matches": "60",
+        "Runs": "1437"
+    },
+    {
+        "id": 4,
+        "name": "Rahul Tripathi",
+        "image": "https://i.ibb.co/vcYpCDb/41229.png",
+        "role": "Batsman",
+        "auctionPrice": 0.60,
+        "nationality": "indian",
+        "matches": "45",
+        "Runs": "988"
+    },
+    {
+        "id": 5,
+        "name": "Andre Russell",
+        "image": "https://i.ibb.co/gPg7gCx/12047.png",
+        "role": "All Rounder",
+        "auctionPrice":8.5,
+        "nationality": "West Indies",
+        "matches": "74",
+        "Runs": "1517"
+    },
+    {
+        "id": 6,
+        "name": "Shakib Al Hasan",
+        "image": "https://i.ibb.co/LvJdq04/3782.png",
+        "role": "All Rounder",
+        "auctionPrice": 3.2,
+        "nationality": "Bangladesh",
+        "matches": "63",
+        "Runs": "746"
+    },
+    {
+        "id": 7,
+        "name": "Sunil Narine",
+        "image": "https://i.ibb.co/C2X1ZsW/11229.png",
+        "role": "All Rounder",
+        "auctionPrice": 12.5,
+        "nationality": "West Indies",
+        "matches": "120",
+        "Runs": "892"
+    },
+    {
+        "id": 8,
+        "name": "Lockie Ferguson",
+        "image": "https://i.ibb.co/DM5L0xr/63719.png",
+        "role": "Bowler",
+        "auctionPrice": 1.6,
+        "nationality": "New Zealand",
+        "matches": "14",
+        "Runs": "44"
+    },
+    {
+        "id": 9,
+        "name": "Pat Cummins",
+        "image": "https://i.ibb.co/NTy2s8H/56964.png",
+        "role": "Bowler",
+        "auctionPrice": 15.5,
+        "nationality": "Australia",
+        "matches": "30",
+        "Runs": "223"
+    },
+    {
+        "id": 10,
+        "name": "Shivam Mavi",
+        "image": "https://i.ibb.co/V3hd72y/66984.png",
+        "role": "Bowler",
+        "auctionPrice": 3,
+        "nationality": "india",
+        "matches": "17",
+        "Runs": "23"
+    },
+    {
+        "id": 11,
+        "name": "Rinku Singh",
+        "image": "https://i.ibb.co/M7GGXzP/64727.png",
+        "role": "Batsman",
+        "auctionPrice": 0.80,
+        "nationality": "india",
+        "matches": "10",
+        "Runs": "77"
+    },
+    {
+        "id": 12,
+        "name": "Kamlesh Nagarkoti",
+        "image": "https://i.ibb.co/gvRm3j8/66807.png",
+        "role": "Bowler",
+        "auctionPrice": 0.70,
+        "nationality": "ibdia",
+        "matches": "10",
+        "Runs": "22"
+    },
+    {
+        "id": 13,
+        "name": "BRENDON MCCULLUM",
+        "image": "https://i.ibb.co/2yGtKq0/1979.png",
+        "role": "Head Coach",
+        "auctionPrice": 1,
+        "nationality": "England"
+    },
+    {
+        "id": 14,
+        "name": "WAYNE BENTLEY",
+        "image": "https://i.ibb.co/Hdkkb5c/2369.png",
+        "role": "Team Manager",
+        "auctionPrice": 0.80,
+        "nationality": "England"
+    },
+    {
+        "id": 15,
+        "name": "KAMLESH JAIN",
+        "image": "https://i.ibb.co/zSh5yH9/80157.png",
+        "role": "Head Physiotherapist",
+        "auctionPrice":0.90,
+        "nationality": "india"
+    }
+]

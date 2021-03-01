@@ -1,0 +1,17 @@
+img{
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.accountIcon{
+    color: white;
+    font-size: 30px;
+    margin-right:50px;
+    cursor: pointer;
+}
+
+#login{
+    font-size: small;
+    margin-left: 10px;
+    color: gray;
+}
